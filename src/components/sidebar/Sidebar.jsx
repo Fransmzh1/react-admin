@@ -12,7 +12,6 @@ const Sidebar = () => {
         <div className="top">
             <span className="logo">Admin</span>
         </div>
-        <hr />
         <div className="center">
             <ul>
                 <p className="title">Main</p>
