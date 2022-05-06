@@ -56,7 +56,28 @@
                     font-size: 13px;
                     font-weight: 600;
                     color:rgb(115, 98, 161) ;
+                    margin-left: 5px;
                 }
+            }
+        }
+    }
+
+    .bottom{
+        display: flex;
+
+        .colorOption{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid rgb(207, 176, 176);
+            cursor: pointer;
+            margin: 5px;
+
+            &:nth-child(1){
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+                background-color: #333;
             }
         }
     }
